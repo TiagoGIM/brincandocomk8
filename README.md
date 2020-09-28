@@ -1,4 +1,4 @@
-# Brincan do Kubernetes (K8's)
+# Brincando com Kubernetes (K8's)
 Neste repositório vou seguir um tutorial de como usar kubernets para lançar uma aplicação em python (3.7).
 ## Preparando o ambiente
 1. Instalar o [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) e habilitar o kubernets.
