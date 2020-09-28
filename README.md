@@ -3,7 +3,7 @@ Neste repositório vou seguir um tutorial de como usar kubernets para lançar um
 ## Preparando o ambiente
 1. Instalar o [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) e habilitar o kubernets.
 2. Instalar a versão python 3.7 para testar o servidor.
-3. Instalar no python o FLASK, que é o framework usado aqui para construir aplicações web em python.
+3. Instalar no python o FLASK, que é um framework usado para construir aplicações web em python.
 `pip install Flask`
 4. Baixar a imagem docker do [python](https://hub.docker.com/_/python/) para criar o container.
 
@@ -25,5 +25,5 @@ Neste repositório vou seguir um tutorial de como usar kubernets para lançar um
 Caso o cluster seja criado e você não consiga encontrar o localhost:port do cluster, altere a porta no deploymente.yaml e refaça o passo 5.
 
 ## Links úteis
-[Kubernets com python](https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/).
+Site referência [Kubernets com python](https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/).
 
