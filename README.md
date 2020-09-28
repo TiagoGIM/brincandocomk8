@@ -1,7 +1,7 @@
 # Brincando com Kubernetes (K8's)
-Neste repositório vou seguir um tutorial de como usar kubernets para lançar uma aplicação em python (3.7).
+Neste repositório vou seguir um tutorial de como usar kubernetes para lançar uma aplicação em python (3.7).
 ## Preparando o ambiente
-1. Instalar o [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) e habilitar o kubernets.
+1. Instalar o [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) e habilitar o kubernetes.
 2. Instalar a versão python 3.7 para testar o servidor.
 3. Instalar no python o FLASK, que é um framework usado para construir aplicações web em python.
 `pip install Flask`
