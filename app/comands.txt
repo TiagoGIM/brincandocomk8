@@ -1,9 +1,33 @@
 #criar docker da imagem
+
 docker build -f Dockerfile -t hello-python:latest .
+
 # criar porta externa para docker 
-docker run -p 5001:5000 hello-python
+docker run -p 5001:5000 hello-python:latest
 # Faça o deploy do seu cluster
-kubectl create -f deployment.yaml (se o serviço já existir troque o create por apply)
+kubectl create -f deployment.yaml (se o serviço já existir troque o "create" por "apply")
 
 # para encerrar o cluster basta deletar tudo, deve ter outra maneira mas não estudei ainda.
-kubectl delete deployment hello-python 
+kubectl delete deployment hello-python
+kubectl delete service hello-python-service 
+
+#para acessar via minikube
+
+minikbe start
+minikube dashboard
+
+# Erros minikube
+
+windows não conseguia encontrar as imagens localmente no minikube
+solução: 
+rodei esse comando no terminal em seguida construi a imagem novamente
+
+minikube docker-env | Invoke-Expression   ()  
+
+o deploy funcionou porem o serviço não estava visivel.
+solução:
+rodei esse comando e em poucos minitos o minikube resetou e funcionou perfeitamente.
+minikube tunnel   
+
+
+
