@@ -3,7 +3,7 @@ docker build -f Dockerfile -t hello-python:latest .
 # criar porta externa para docker 
 docker run -p 5001:5000 hello-python
 # Faça o deploy do seu cluster
-kubectl apply -f deployment.yaml
+kubectl create -f deployment.yaml (se o serviço já existir troque o create por apply)
 
 # para encerrar o cluster basta deletar tudo, deve ter outra maneira mas não estudei ainda.
 kubectl delete deployment hello-python 
