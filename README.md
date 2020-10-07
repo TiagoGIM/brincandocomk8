@@ -8,7 +8,7 @@ Neste repositório vou seguir um tutorial de como usar kubernetes para lançar u
 4. Baixar a imagem docker do [python](https://hub.docker.com/_/python/) para criar o container.
 
 ## Passos para lançar o cluster
- 1. Execute o script maim.py
+ 1. Execute o script main.py
 `python3 main.py`   
  2. Agora verifique se a aplicação está funcionando no browser.
 [http://localhost:5000](http://localhost:5000)
