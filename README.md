@@ -12,7 +12,8 @@ Neste repositório vou seguir um tutorial de como usar kubernetes para lançar u
 `python3 main.py`   
  2. Agora verifique se a aplicação está funcionando no browser.
 [http://localhost:5000](http://localhost:5000)
- 3. Agora é a hora de criar o conteiner da aplicação, esta etapa irá usar o Dockerfile para configurar sua app na imagem. 
+ 3. Agora é a hora de criar o conteiner da aplicação, esta etapa irá usar o Dockerfile para configurar sua app na imagem.
+ 
 ```docker build -f Dockerfile -t hello-python:latest```
  4. Rode seu container e agora tente abrir sua aplicação na porta criada para o container.
 ´docker run -p 5001:5000 hello-python´
