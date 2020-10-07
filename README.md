@@ -17,7 +17,8 @@ Neste repositório vou seguir um tutorial de como usar kubernetes para lançar u
 ```docker build -f Dockerfile -t hello-python:latest```
 
  4. Rode seu container e agora tente abrir sua aplicação na porta criada para o container.
-´docker run -p 5001:5000 hello-python´
+`docker run -p 5001:5000 hello-python`
+
 [http://localhost:5001](http://localhost:5001)
  5. Com o conteiner funcionando agora vamos criar o cluster:
 ```kubectl apply -f deployment.yaml```
