@@ -20,6 +20,7 @@ Neste repositório vou seguir um tutorial de como usar kubernetes para lançar u
 `docker run -p 5001:5000 hello-python`
 
 [http://localhost:5001](http://localhost:5001)
+
  5. Com o conteiner funcionando agora vamos criar o cluster:
 ```kubectl apply -f deployment.yaml```
 ### 6. Tudo pronto, tente abrir sua applicação na porta do cluster, verifique a porta no arquivo 'deployment.yaml'.
