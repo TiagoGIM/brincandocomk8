@@ -37,7 +37,7 @@ Neste repositório vou seguir um tutorial de como usar kubernetes para lançar u
 
 Caso o cluster seja criado e você não consiga encontrar o localhost:port do cluster, altere a porta no deploymente.yaml e refaça o passo 5.
 
-em app/ tem um file no qual descrevo os passos que segui e os problemas que foram aparecendo.
+Nesse link . [ClIQUE AQUI](https://github.com/TiagoGIM/brincandocomk8/blob/main/app/comands.txt) qeu descrevo os passos que segui e os problemas que foram aparecendo.
 
 ## Links úteis
 Site referência [Kubernets com python](https://kubernetes.io/blog/2019/07/23/get-started-with-kubernetes-using-python/).
